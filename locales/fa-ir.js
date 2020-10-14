@@ -23,10 +23,10 @@
       trillion: 'تیلیارد'
     },
     ordinal: function (number) {
-      return 'ام'
+      return 'ام';
     },
     currency: {
       symbol: 'ریال'
     }
-  })
-}))
+  });
+}));
