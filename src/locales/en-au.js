@@ -17,10 +17,10 @@
             decimal: '.'
         },
         abbreviations: {
-            thousand: 'K',
-            million: 'M',
-            billion: 'B',
-            trillion: 'T'
+            thousand: 'k',
+            million: 'm',
+            billion: 'b',
+            trillion: 't'
         },
         ordinal: function (number) {
             var b = number % 10;

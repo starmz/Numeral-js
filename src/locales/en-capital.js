@@ -11,16 +11,16 @@
         factory(global.numeral);
     }
 }(this, function (numeral) {
-    numeral.register('locale', 'en-au', {
+    numeral.register('locale', 'en-capital', {
         delimiters: {
             thousands: ',',
             decimal: '.'
         },
         abbreviations: {
-            thousand: 'k',
-            million: 'm',
-            billion: 'b',
-            trillion: 't'
+            thousand: 'K',
+            million: 'M',
+            billion: 'B',
+            trillion: 'T'
         },
         ordinal: function (number) {
             var b = number % 10;
